@@ -9,4 +9,5 @@ Choose any one of below based on your need
 
 # USAGE GUIDE if you're running NodeJs 14.xx
   a. Unzip the repo, choose either 1 or 2 from above mentioned basis
+  
   b. C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup (replacing 'username' with the name of your computer user)
