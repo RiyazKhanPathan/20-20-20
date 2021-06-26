@@ -8,6 +8,6 @@ Choose any one of below based on your need
   2. Your windows system speaks up (No popup's) (Case2 folder)
 
 # USAGE GUIDE if you're running NodeJs 14.xx
-  a. Unzip the repo, choose either 1 or 2 from above mentioned basis
+  a. Unzip the repo, based on your convenience choose either 1 or 2 from above, place them in "Downloads" folder.
   
-  b. C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup (replacing 'username' with the name of your computer user)
+  b. Now to move the run.bat file to C:\Users\username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup (replacing 'username' with the name of your computer user)
