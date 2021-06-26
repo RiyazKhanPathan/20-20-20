@@ -18,7 +18,7 @@ function changeLookAlert(){
     //play audio C:/Windows/Media/Alarm05.wav
     console.log("Stare at 20 meters farther object");
     proces.exec("start C:\\Windows\\Media\\Alarm05.wav",(err,stdout,stderr)=>{killWindow(8)});
-    // 5*60*1000
+    // 20seconds - mediaFileLength8Seconds
     sleep(12*1000).then(back2WorkAlert);
     
 }
@@ -34,7 +34,7 @@ function back2WorkAlert(){
 console.log("20-20-20 has been Started");
 function timer(){
     //20*60*1000
-    sleep(20*1000).then(changeLookAlert);
+    sleep(20*60*1000).then(changeLookAlert);
     
 }
 timer();
