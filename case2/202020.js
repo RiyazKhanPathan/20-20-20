@@ -8,13 +8,13 @@ function sleep(time) {
 
 
 function changeLookAlert(){
-   
+    console.log("Take Rest");
     speak("Stare at 20 meters farther object for 20 seconds");
     sleep(20*1000).then(back2WorkAlert);
     
 }
 function back2WorkAlert(){
-
+    console.log("Back to your work");
     speak("Get Back To Your Work");
     timer();
     
